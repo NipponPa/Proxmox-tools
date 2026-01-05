@@ -1,0 +1,21 @@
+# /etc/systemd/system/automc.service
+[Unit]
+Description=Minecraft AutoRun Script
+After=network-online.target
+Wants=network-online.target
+RequiresMountsFor=/data
+
+[Service]
+User=root
+WorkingDirectory=/data/mc
+ExecStart=/usr/bin/screen -DmS minecraft /bin/bash /data/mc/crashfix.sh
+ExecStop=/usr/bin/screen -S minecraft -X quit
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
+
