@@ -15,5 +15,8 @@ Add these lines to crontab with `crontab -e`:
 @reboot sleep 10 && echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo
 @reboot sleep 10 && echo 1 > /sys/devices/system/cpu/intel_pstate/energy_efficiency
 @reboot sleep 10 && echo 0 > /sys/devices/system/cpu/intel_pstate/hwp_dynamic_boost
+@reboot sleep 90 && echo 600 > /sys/class/drm/card0/gt_max_freq_mhz
+@reboot sleep 90 && echo 600 > /sys/class/drm/card0/gt_boost_freq_mhz
 @reboot sleep 60 && /usr/sbin/powertop --auto-tune
 ```
+
