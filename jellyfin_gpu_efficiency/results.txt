@@ -1,0 +1,39 @@
+350 MHz:
+    Frames processed: 3360
+    Energy used: 534 J
+    Efficiency: 6.29 frames/J
+
+500 MHz:
+    Frames processed: 3360
+    Energy used: 529 J
+    Efficiency: 6.35 frames/J
+
+600 MHz:
+    Frames processed: 3360
+    Energy used: 525 J
+    Efficiency: 6.40 frames/J
+
+700 MHz:
+    Frames processed: 3360
+    Energy used: 538 J
+    Efficiency: 6.25 frames/J
+
+800 MHz:
+    Frames processed: 3360
+    Energy used: 549 J
+    Efficiency: 6.12 frames/J
+
+900 MHz:
+    Frames processed: 3360
+    Energy used: 581 J
+    Efficiency: 5.78 frames/J
+
+1000 MHz:
+    Frames processed: 3360
+    Energy used: 646 J
+    Efficiency: 5.20 frames/J
+
+1100 MHz:
+    Frames processed: 3360
+    Energy used: 728 J
+    Efficiency: 4.62 frames/J
